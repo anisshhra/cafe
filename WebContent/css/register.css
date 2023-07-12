@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background: url(image5.png) no-repeat;
+	background-size: cover;
+}
+
+.box {
+	width: 320px;
+	height: 490px;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 40px 30px;
+}
+
+.box2 {
+	width: 320px;
+	height: 270px;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 40px 30px;
+}
